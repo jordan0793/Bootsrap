@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    <!-- Bootstrap Popper !-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+
+    <title>Installation Bootsrap 5</title>
+  </head>
+  <!-- <body class="bg-dark text-white" > -->
+    <h1>Installation Bootsrap 5</h1>
+
+    
+
+    
+
+    <!-- Les Couleurs en Bootstrap-->
+
+   <!-- <img src="./captures/couleur_police1.png">
+   <img src="./captures/couleur_police_2.png">
+   <img src="./captures/bg_couleur.png"> -->
+    
+   
+   <!-- La grille en Bootstrap -->
+
+    <!-- A/ .container-->
+
+    <!-- .container et . contener-fluid , .row =rangée, . col= colonne-->
+
+    <!-- 1/.container va définir une taille fixe et responsive pour chacun des breakpoints ( contenu de page) -->
+    <!-- 2/.container-fluid va définir une taille fixe et responsive qui occupera 100 % de la largeur , peu importe la résolution de l'écran des visiteurs ( header et footer, ne necessitant pas de marge) -->
+
+    <!-- <div class="container bg-danger">
+        <h2 class="text-light">Container</h2>
+    </div>
+    
+     <div class="container-fluid bg-danger">
+        <h2 class="text-light">Container</h2>
+    </div> -->
+
+    <!-- </br></br></br></br></br> -->
+
+     <!-- B/ les rangée ( lignes ) et colonnes
+     1/ les lignes -->
+
+     <!-- <div class="bg-white">
+        <div class="container">
+            <div class="row text-light bg-danger">
+            <h2 class="text-light"> Première rangée</h2>
+            </div>
+
+            <div class="row text-light bg-info">
+            <h2 class="text-light"> Deuxième rangé</h2>
+            </div>
+        </div>
+    </div>
+        </br></br></br></br></br> -->
+
+
+
+      <!-- 2/ Les colonnnes
+       Processus      
+        a: création de conteneur
+        b: Placer une ligne dans le container
+        c: Mets 3 colonnes dans la ligne
+        d:Placer titre dans colonnes -->
+
+       <!-- <div class="container">
+            <div class="row text-light bg-danger">
+                <div class="col-2 bg-danger text light"><h3>Colonne 1</h3>
+                </div>
+                <div class="col-3 bg-info text-light"><h3>Colonne 2</h3>
+                </div>
+                <div class="col-7 bg-secondary text-light"><h3>Colonne 3</h3>
+                </div>
+            </div>
+       </div> -->
+
+
+       <!--Les Breakpoints-->
+
+       <!-- Breakpoints: le mediaquiery de Bootstrap mais adaptéé spécifiquement aux portable et Smartphone, d'ou l'ulisation de ce framework trés usuel, anlayser la colonne 2 pour exemple-->
+
+       <!-- <img src="captures/breakpoints.png" alt="breakpoints">
+        </br></br></br></br></br>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-light bg-danger">
+                    <h3>Colonne 1</h3>
+                </div>
+                <div class="col-xxl-10 col-xl-8 col-lg-6 col-md-5 col-sm-4 col-2 bg-info text-light">
+                    <h3>Colonne 2</h3>
+                </div>
+                <div class="col bg-success text-light">
+                    <h3>Colonne 3</h3>
+                </div>
+            </div>
+        </div> -->
+
+
+        
+        <!-- ***Changer l'ordre des colonnes de Bootstrap ( + order-first et order-last pour plus de colonnes)-->
+
+        <!-- <div class="row">
+        <div class="col-md-3 order-2 order-md-1 bg-danger text-light">
+            <h3 class>AUTEUR</h3>
+            <p> Finibus Bonorum et Malorum (Les extrèmes du bien et du mal) de Cicéron, écrit en 45 BC<p>
+        </div>
+        <div class="col-md-9 order-1 order-md-2 bg-info text-light">
+            <h3>Article</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem. </p>
+        </div>
+    </div> -->
+
+    </br></br></br></br></br></br></br></br></br></br>
+
+    <!--Le décallage de colonnes-->
+
+    <!--décallage normal , mais inesthétique en résolution de moin de 768px -->
+    <!-- <div class="row">
+        <div class="col-md-6 bg-danger">
+            <h3 class="text-light bg-danger">Colonne 1</h3>
+        </div>
+        <div class="col-md-4 offset-2 offset-md-2 bg-info">
+            <h3 class="text-light">Colonne 2</h3>
+        </div>
+    </div> -->
+    
+    <!-- </br></br></br></br></br></br> -->
+
+    <!-- décallage esthétique en résolution de - 768 px, colones pleines en ligne-->
+    <!-- <div class="row">
+        <div class="col-md-6 bg-danger">
+            <h3 class="text-light bg-danger">Colonne 1</h3>
+        </div>
+        <div class="col-md-4 offset-md-2 bg-info">
+            <h3 class="text-light">Colonne 2</h3>
+        </div>
+    </div> -->
+
+    <!-- </br></br></br></br></br></br>
+
+    <div class="row">
+        <div class="col-md-4 bg-light text-dark border-end border-2 border-warning">
+            <h3 class="bg-danger text-light"> Element 1</h3>
+        </div>
+
+        <div class="col-md-4 bg-light text-dark border-end border-2 border-warning">
+            <h3 class="bg-primary text-light me-5">Element 2 </h3>
+        </div>
+        <div class="col-md-4 bg-light text-dark border-end border-2 border-warning">
+            <h3 class="bg-success text-light"> Element 3</h3>
+        </div>
+    </div>
+    
+    </br></br></br></br></br></br> -->
+    
+    <!-- <img src="./captures/marges.png" alt=""> -->
+
+    <!-- PS: .auto ne s'utilise que pour des marges extérieures et définit des marges automatiques -->
+
+
+    <!-- </br></br></br></br></br></br>
+
+    <div class="row">
+        <div class="col-md-3 bg-danger">
+            <h3 class="text-light"> Element 1</h3>
+        </div>
+
+        <div class="col-md-3 bg-info mx-md-4">
+            <h3 class="text-light">Element 2 </h3>
+        </div>
+        <div class="col-md-3 bg-success">
+            <h3 class="text-light"> Element 3</h3>
+        </div>
+    </div> -->
+
+    <!--Création des espace entre les éléments-->
+
+    <!-- Attention au placement des élément dans h3 et dans la div , le résulat n'est pas le même-->
+
+    <!-- <div class="row">
+        <div class="col-md-4 border px-4">
+            <h3 class="text-light bg-danger"> Element 1</h3>
+        </div>
+
+        <div class="col-md-4 border px-4">
+            <h3 class="text-light bg-info m-3">Element 2 </h3>
+        </div>
+        <div class="col-md-4 border px-4">
+            <h3 class="text-light bg-success"> Element 3</h3>
+        </div>
+    </div>  -->
+
+
+    <!--Espacer les élément avec Glutter -->
+
+    <!-- Permet de rajouter des marges identiques à tous les éléments, creer ainsi le tableau complet -->
+
+    <!-- <div class="row gx-0 gy-5">
+        <div class="col-md-6">
+            <h3 class="text-light bg-danger"> Element 1</h3>
+        </div>
+
+        <div class="col-md-6 ">
+            <h3 class="text-light bg-info">Element 2 </h3>
+        </div>
+        <div class="col-md-6">
+            <h3 class="text-light bg-success"> Element 3</h3>
+        </div>
+        <div class="col-md-6">
+            <h3 class="text-light bg-warning"> Element 4</h3>
+        </div>
+    </div>
+ -->
+
+
+ <!-- Alignement Verticale et horizontale des colonnes-->
+
+    <!-- 1/ Alignement Vertical 
+        align-items-start
+        align-items-end
+        align-items-center
+    
+    
+    
+    2/ Aligement vertical individuel:
+
+        - align self-start (end,center)-->
+
+    
+
+<!-- Alignement Horizontal-->
+
+<!-- justify-content-(start, center,end, betweenn, around, evenly)
+
+-->
+
+<!--Les imbrications de colones-->
+
+
+<!-- <div class="container-fluid">
+    <div class="row text-light">
+        <div class="col-md-8 bg-danger">
+            <h3>Article</h3>
+    </div>
+
+    <div class="col-md-4 bg-info">
+        <h3 class="text-light">Barre latérale </h3>
+        </div>
+    </div>
+</div>
+
+</br></br></br></br></br></br>
+
+<img src="./captures/imbrication_colonnes.png" -->
+
+<!-- <div class="row text-light">
+
+    <div class="col-sm-8 bg-danger">
+        <h3>Article</h3>
+        <div class="row">
+            <div class="col-md-6 bg-success">
+                <h4>Colonne imbriqué 1</h4>
+                <div class="row">
+                <div class="col-md-6 bg-secondary">
+                    <h4>Colonne 1 imbriqué niveau 2 </h4>
+                </div>
+        
+                <div class="col-md-6 bg-warning">
+            <h4>Colonne 2 imbriqué niveau 2 </h4>
+        </div>
+    </div>Changer la hauteur et la largeur d'un élément
+</div>
+
+    <div class="col-sm-6 bg-primary">
+        <h4>Colonne imbriqué 2</h4>
+    </div>
+    </div>
+</div>
+
+<div class="col-sm-4 bg-info">
+    <h3 class="text-light">Barre latérale</h3>
+</div>
+
+</div> -->
+
+
+
+<!-- Changer la hauteur et la largeur d'un élément-->
+
+        <!--Commande w, soit width accompagné de pourcentage donc w-25 par ex-->
+
+  
+    <!-- <div class="container-fluid>">
+        <div class="row text-light">
+            <div class="col-6 bg-danger">
+                <h3> Colonne 1: largeur 6 colonnes</h3>
+            </div>
+
+            <div class="col-8 bg-success">
+                <h3>Colonne 2 : largeur 8 colonnes </h3>
+            </div>
+
+            <div class="col-10 bg-primary">
+                <h3>Colonne 3 : largeur 10 colonnes</h3>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Changer la hauteur
+    
+    Avec height, soit h=25, en pourcentage-->
+
+    <!--Ajuster la largeur et la hauteur par rapport à la fenêtre de navigation , c'est appeller le viewport 
+    On utilise la commande vw-100,vh-100, min-vw-100, min-vh-100--->
+
+
+
+
+
+    <!-- Création d'une barre de Navigation classque et son emplacement-->
+
+    <!-- <img src="./captures/barre_navigation.png"> -->
+
+    <!-- <header class="bg-light"> -->
+        <!-- Création de la barre de navigation avec un point de transition de 576px-->
+        <!-- <img src="./captures/navigation_lien.png"> -->
+        
+
+        <!-- <nav class="navbar navbar-expand-sm bg light">
+            <div class="container-fluid"> -->
+                <!-- Liens-->
+                <!-- <ul class="navbar-nav">
+                    <li class=nav-item>
+                        <a class="nav-link" href="#">Liens 1</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Liens 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liens 3</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>  -->
+
+    <!-- On utilisera justfy-content-center et end dans le CONTAINER  pour orienter les liens de navigation
+    
+    navbar-brand :1/ pour mettre en évidence un lien par rapport aux autre , surrélévation de ce liens par rapport aux autres
+                  2/pour insérer un logo sur le liens : <a class=navbar-brand">
+                                                            <img src=" img_logo.png" alt "" style="width:80px;">
+    -->
+
+    <img src="./captures/breakpoints.png">
+    <img src="./captures/couleur_police_2.png">
+
+    <!--Center verticalement un élément dans la barre de navigation
+    
+    C'est l'ajout de padding: <li class="nav-item pt-sm-1"-->
+
+        <!--Changer la couleur dans la barre de navigation
+        
+        Simple: avec les couleur prédéfinie, cependnant 2 spécialité de la nav-barrre :
+    navbar-dark et navbar-light qui seront utiliser spécialement pour stylysé une barre de navigation soit qui est de couleur foncée ouy de couleur claire-->
+
+
+    <!-- Changer la taille des liens ou du texte dans la barre de navigation-->
+
+    <!--display-5 ou h1 ou fs-2 , en somme la même que pour la taille de police-->
+
+    <!--Activer, mettre en évidence la page sur laquelle on est , desactiver un lien de nazvigation 
+    * active ou disable( liens de couleur ternie , qui ne sera plus actif)-->
+
+
+
+    <!--Fixer une barre de navigation -->
+
+    <!--
+        1/ fixed-top: la barre sera fixer en haut de l'écran , elle restera en haut de notre écran quelque soit la position du texte
+    
+        2/ sticky-top: idem que fixed mais la barre ne bougera que lorsque l'on aura fait défiler suffisament le texte
+
+        3/ 
+-->
+
+<!-- <body style="height:1500px">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a class="navbar-brand" href="#">Barre de navigation</a>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+    
+    <div class="container">
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+
+    </header>
+    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+
+
+</body> -->
+
+
+
+<!-- exemple Sticky-top
+
+    Sortir la barre de navigation du header ! -->
+
+    <!-- <body style="height:1500px">
+        <header>
+            
+            <div class="container">
+            <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+    
+        </header>
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a class="navbar-brand" href="#">Barre de navigation</a>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+    
+    
+    </body> -->
+
+
+    <!--3/ Fixed Bottom-->
+
+    <!-- à utiliser cette fois ci dans le footer-->
+    <body style="height:1500px">
+        <header>
+
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+                <div class="container">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item">
+                            <a class="navbar-brand" href="#">Barre de navigation</a>
+    
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="container">
+            <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+    
+        </header>
+
+        
+    
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <!-- <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+        <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p> -->
+
+        <footer>
+
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-bottom">
+                <div class="container">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item">
+                            <a class="navbar-brand" href="#">Barre de navigation: bas de page</a>
+    
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </footer>
+    
+    
+    </body> 
+
+
+
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+   
+    
+  </body>
+</html>
